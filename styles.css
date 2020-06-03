@@ -41,3 +41,18 @@ nav {
 	border-radius: 100%;
 	width: 32px;
 }
+.container {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+}
+#logo {
+	display: flex;
+	justify-content: center;
+}
+#search {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
