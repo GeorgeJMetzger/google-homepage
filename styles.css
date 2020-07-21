@@ -45,7 +45,7 @@ nav {
 	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 75px;
+	margin-top: 150px;
 }
 #logo {
 	display: flex;
@@ -55,4 +55,29 @@ nav {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	font-size: 13px;
+}
+#footer-cluster-1 {
+	display: inline-flex;
+	float: left;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 300px;
+	padding-left: 18px;
+	align-items: center;
+}
+#footer-cluster-2 {
+	display: inline-flex;
+	float: right;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 200px;
+	padding-left: 0;
+	align-items: center;
 }
